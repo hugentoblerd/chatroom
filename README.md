@@ -1,7 +1,7 @@
 ChatRoom
 ========
 
-Now is the moment you've all been waiting for. We're going to be dealing with a 'back-end' and now all of our data is going to persist. IE when you refresh, the data will still be there. 
+Now is the moment you've all been waiting for! We're going to be dealing with a 'back-end' and now all of our data is going to persist. IE when you refresh, the data will still be there. 
 
 We're going to be building a basic chatroom so by the end of class, you'll all be able to chat with each other. Here's what you'll be working towards (http://jaredbeauchamp.com/experiments/chatroom/index.html). You'll have to do some CSS magic to make it look that good, but feel free to get creative with the styling once you finish the core project.
 
@@ -15,11 +15,11 @@ The concepts this project will cover are
 
 
 ##Step 1: Clone and Dissect the Repo
-* Fork and clone this repository.
-* This is the first project where you'll have to work with part of the code that's already in place.
-* You should only touch mainCtrl.js and parseService.js, everything else is already set up for you
-* Although very convenient, because other parts of the application are already set for you, you need to understand what that code is doing in order to work with it. 
-* Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repat looping over messages. This means that somehow, you need to have 'messages' on the scope which should also have a 'text' property.
+<!-- * Fork and clone this repository. -->
+<!-- * This is the first project where you'll have to work with part of the code that's already in place. -->
+<!-- * You should only touch mainCtrl.js and parseService.js, everything else is already set up for you -->
+<!-- * Although very convenient, because other parts of the application are already set for you, you need to understand what that code is doing in order to work with it.  -->
+<!-- * Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repeat looping over messages. This means that somehow, you need to have 'messages' on the scope which should also have a 'text' property. -->
 
 
 ##Step 2: Build your parseService
