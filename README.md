@@ -23,8 +23,8 @@ The concepts this project will cover are
 
 
 ##Step 2: Build your parseService
-* In Angular we use 'services' to outsource some of our heavy lifting. That's exactly what we're going to do with this app. 
-* Open up parseService.js and read the instructions. The bigger picture is that this service is going to have two methods, getData and postData. getData will get the chats from our parse backend, and postData will be able to post new messages to the parse backend.
+<!-- * In Angular we use 'services' to outsource some of our heavy lifting. That's exactly what we're going to do with this app.  -->
+<!-- * Open up parseService.js and read the instructions. The bigger picture is that this service is going to have two methods, getData and postData. getData will get the chats from our parse backend, and postData will be able to post new messages to the parse backend. -->
 
 
 ##Step 3: Tie in your Controller

@@ -1,4 +1,4 @@
-var app = angular.module('twitterClone');
+var app = angular.module('chatty');
 
 app.service('parseService', function($http, $q){
   //Here you'll need to create two methods. One called postData and the other called getData.
@@ -7,8 +7,15 @@ app.service('parseService', function($http, $q){
   //On the line below create the postData method. This method will add data to the parse backend.
   //The url for the request needs to be 'https://api.parse.com/1/classes/chat'
   //Also, remember that $http returns a promise. So if you return the whole $http call (return $http(...)), you can then use .then in your controller.
-  
-  //postData method here
+
+  // POST request that returns promise
+  var postData = function (text.message) {
+    return $http({
+      method: 'POST',
+      url: 'https://api.parse.com/1/classes/chat',
+      data: text.message
+    })
+  };
 
 
   //On the line below create a getData method. This method will retrieve data from the parse backend.
@@ -18,12 +25,28 @@ app.service('parseService', function($http, $q){
   when we're making a request, we don't know when the response will come back. This sound like a perfect use case for a promise. We can 
   create a promise that resolves with the correct data from parse whenever our $http get requests finishes. 
   /*
-  //Because of the way parse sends back their data, let's resolve our promise with data.data.results if you had the original parameter be date like below.
+  //Because of the way parse sends back their data, let's resolve our promise with data.data.results if you had the original parameter be data like below.
   /* 
     .then(function(data){
       deferred.resolve(data.data.results)
     })
   */
 
-  //getData method here
+// GET request that returns promise
+var getData = function () {
+    return $http({
+      method: 'GET',
+      url: 'https://api.parse.com/1/classes/chat?order=-createdAt'
+    }).then(function (data) {
+      deferred.resolve(data.data.results)
+    })
+  };
+
+
+
+
 });
+
+
+
+
