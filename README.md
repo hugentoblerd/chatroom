@@ -28,12 +28,12 @@ The concepts this project will cover are
 
 
 ##Step 3: Tie in your Controller
-* Now that your parseService is finished, we somehow need a way to tie the data we're getting from parseService.getData to our scope to show in our view. This sounds like the perfect use case for a controller. 
-* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
+<!-- * Now that your parseService is finished, we somehow need a way to tie the data we're getting from parseService.getData to our scope to show in our view. This sounds like the perfect use case for a controller.  -->
+<!-- * Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope -->
 
 
 ##Step4: That's it
-* If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular.
+<!-- * If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular. -->
 
 
 ##Step 5: Black Diamond
